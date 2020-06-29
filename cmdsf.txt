@@ -1,0 +1,8 @@
+# command to integrate bokeh server and the flask application
+
+bokeh serve --port 5100 --allow-websocket-origin localhost:8080 --allow-websocket-origin 127.0.0.1:8080 bokeh_app1.py
+
+# command to check only the bokeh app
+
+bokeh serve --show bokeh_app1.py
+
